@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Controls (Outside Main Content) -->
+    <div class="header-top">
+        <button id="theme-toggle" class="theme-toggle" title="Toggle dark/light mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+        <a href="#" id="download-cv" class="download-cv" title="Download CV as PDF">
+            <span>📥 Download CV</span>
+        </a>
+    </div>
+
+    <div class="container">
+        
+        <!-- Header Section -->
+        <header>
+            <!-- Placeholder for profile photo. Add your image to images/ folder and update src -->
+            <img src="Images/profile.jpg" alt="Profile Photo" class="profile-photo" onerror="this.src='https://via.placeholder.com/150'">
+            <h1 id="name">Abdullah Mushtaq</h1>
+            <h2 id="title">CS Undergraduate</h2>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h3>About Me</h3>
+            <p>CS Undergraduate at FAST-NUCES Lahore with a focus on Full-Stack Development and Core Computing Fundamentals. A self-driven problem solver with experience in React.js, Node.js, and C++, dedicated to developing high-impact software solutions and mastering the art of efficient algorithm design.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h3>Education</h3>
+            
+            <div class="education-item">
+                <div class="school-header">
+                    <span class="degree">Bachelor of Computer Science</span>
+                    <span class="date">2023 - 2027(Pending)</span>
+                </div>
+                <div class="school">FAST NUCES Lahore</div>
+            </div>
+
+            <div class="education-item">
+                <div class="school-header">
+                    <span class="degree">Inter Pre-Medical</span>
+                    <span class="date">2020 - 2022</span>
+                </div>
+                <div class="school">Shalimar College Lahore</div>
+            </div>
+            
+            <div class="education-item">
+                <div class="school-header">
+                    <span class="degree">Matric FSC</span>
+                    <span class="date">2018 - 2020</span>
+                </div>
+                <div class="school">Govt Highschool For Boys</div>
+            </div>
+
+        </section>
+
+        <section id="skills">
+            <h3>Technical Skills</h3>
+            <ul class="skills-list">
+                <li><strong>Full-Stack Development:</strong> React.js, Express.js, Node.js, T-SQL and Winforms C#</li>
+                <li><strong>Programming Languages:</strong> C++, JavaScript, Assembly Language, Python, C#</li>
+                <li><strong>Core CS Fundamentals:</strong> Structured Programming, Object-Oriented Programming (OOP), Design Patterns</li>
+                <li><strong>Algorithms:</strong> Data Structures and Algorithmic Complexity Analysis</li>
+                <li><strong>Systems Programming:</strong> Low-level memory management and architecture understanding</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h3>Projects & Technical Experience</h3>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <span class="job-title">Full-Stack Web Application (Classroom Management System)</span>
+                </div>
+                <div class="company">React.js | Express.js | T-SQL</div>
+                <ul>
+                    <li>Developed a responsive web application featuring user role based authentication and login.</li>
+                    <li>Architected a relational database using T-SQL, optimizing queries for high-performance data retrieval.</li>
+                    <li>Implemented RESTful APIs to facilitate seamless communication between the React frontend and Node.js backend.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <span class="job-title">1v1 Chess Game</span>
+                </div>
+                <div class="company">C++ SFML</div>
+                <ul>
+                    <li>Used all concepts of OOP Effieciently</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <span class="job-title">Maze Rush</span>
+                </div>
+                <div class="company">Assembly Language</div>
+                <ul>
+                    <li>Developed a maze navigation game in low-level Assembly language demonstrating advanced systems programming skills.</li>
+                    <li>Implemented efficient memory management and interrupt-driven game logic at the hardware abstraction level.</li>
+                    <li>Showcased deep understanding of CPU architecture and register manipulation for performance-critical operations.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <span class="job-title">2D Dungeon Crawler - Penance</span>
+                </div>
+                <div class="company">C++ | Raylib</div>
+                <ul>
+                    <li>Created a feature-rich 2D dungeon crawler game with complex game mechanics and sprite animations.</li>
+                    <li>Implemented collision detection, enemy AI, and real-time rendering using Raylib graphics library.</li>
+                    <li>Designed scalable game architecture for efficient level management and entity interactions.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <span class="job-title">Chippa Motors</span>
+                </div>
+                <div class="company">C# | WinForms | 3-Layered Architecture</div>
+                <ul>
+                    <li>Built a comprehensive desktop application following 3-layered architecture pattern (Presentation, Business Logic, Data Access).</li>
+                    <li>Implemented robust database operations and business logic separation for maintainability and scalability.</li>
+                    <li>Designed intuitive WinForms UI with proper separation of concerns and adherence to SOLID principles.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3>Contact Information</h3>
+            <div class="contact-info">
+                <a href="mailto:abdullahmushtaq445@gmail.com">abdullahmushtaq445@gmail.com</a>
+                <a href="tel:+923021047124">+923021047124</a>
+                <a href="https://github.com/AevitusOmegus">Portfolio / GitHub</a>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact-form">
+            <h3>Get In Touch</h3>
+            <form id="message-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <p id="form-message" class="form-message"></p>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Abdullah Mushtaq. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
