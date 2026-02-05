@@ -10,7 +10,7 @@ A modern, responsive, and interactive curriculum vitae (CV) website showcasing t
 - **JavaScript:** Theme Toggle, Form Handling, Print-to-PDF
 
 ## Live Link
-[View CV](https://aevitusomegus.github.io/) (Update with your hosted link)
+[View CV](https://my-cv-ten-xi.vercel.app)
 
 ---
 
