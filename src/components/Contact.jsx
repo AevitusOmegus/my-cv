@@ -27,7 +27,7 @@ export default function Contact() {
         </motion.a>
         <motion.a variants={zoomIn} whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} href={profile.github} target="_blank" rel="noreferrer" className="glass">
           <Github size={22} />
-          <span>github.com/AevitusOmegus</span>
+          <span>github.com/AeonisEnomas</span>
         </motion.a>
         <motion.a variants={zoomIn} whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} href={profile.linkedin} target="_blank" rel="noreferrer" className="glass">
           <Linkedin size={22} />

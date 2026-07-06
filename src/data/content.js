@@ -8,7 +8,7 @@ export const profile = {
   location: 'Lahore, Pakistan',
   email: 'abdullahmushtaq445@gmail.com',
   phone: '+92 371 0160293',
-  github: 'https://github.com/AevitusOmegus',
+  github: 'https://github.com/AeonisEnomas',
   linkedin: 'https://www.linkedin.com/in/abdullah-mushtaq-605554378/',
 };
 
